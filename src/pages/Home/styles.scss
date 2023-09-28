@@ -1,0 +1,11 @@
+.cardEngine-wrapper {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10vw;
+
+  @media (max-width: 580px) {
+    flex-direction: column;
+  }
+}

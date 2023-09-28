@@ -1,0 +1,47 @@
+.cardEngine-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 23vw;
+  height: 23vw;
+  padding: 2rem;
+
+  > img {
+    width: 37%;
+  }
+
+  p {
+    font-family: "Jost", sans-serif;
+    opacity: 0.8;
+    font-size: 1.4vw;
+  }
+
+  p:nth-child(3) {
+    font-size: 5vw;
+    line-height: 0.9;
+  }
+
+  span {
+    font-size: 1.1vw;
+  }
+
+  @media (max-width: 580px) {
+    width: 50vw;
+    height: 50vw;
+
+    p {
+      font-family: "Jost", sans-serif;
+      opacity: 0.8;
+      font-size: 3.4vw;
+    }
+
+    p:nth-child(3) {
+      font-size: 14vw;
+      line-height: 0.9;
+    }
+
+    span {
+      font-size: 3.1vw;
+    }
+  }
+}
