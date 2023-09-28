@@ -14,8 +14,8 @@
 </p>
 <hr>
 <p align="center">Tecnologies:
-<br>React Native
-<br>EmailJS
-<br>Axios
+<br>React
+<br>PrimeReact
+<br>React Router Dom
 <br>Git e GitHub</p>
 <hr>
